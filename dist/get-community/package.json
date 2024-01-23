@@ -1,0 +1,47 @@
+{
+  "name": "yc-functions",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "lint": "npx eslint . --fix",
+    "prettier": "npx prettier . --write",
+    "build": "npx rollup --config rollup.config.js --environment"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/core": "5.0.1",
+    "@yandex-cloud/nodejs-sdk": "2.4.9",
+    "axios": "1.5.0",
+    "buffer": "^6.0.3",
+    "Buffer": "^0.0.0",
+    "moment": "2.29.4",
+    "node-fetch": "3.3.2",
+    "ydb-sdk": "3.9.0",
+    "zod": "3.22.3"
+  },
+  "devDependencies": {
+    "@rollup/plugin-alias": "5.0.0",
+    "@rollup/plugin-auto-install": "3.0.4",
+    "@rollup/plugin-commonjs": "25.0.3",
+    "@rollup/plugin-eslint": "9.0.4",
+    "@rollup/plugin-json": "6.0.0",
+    "@rollup/plugin-multi-entry": "6.0.0",
+    "@rollup/plugin-node-resolve": "15.1.0",
+    "@rollup/plugin-terser": "0.4.3",
+    "@rollup/plugin-typescript": "11.1.2",
+    "@trivago/prettier-plugin-sort-imports": "4.2.0",
+    "@typescript-eslint/eslint-plugin": "6.2.0",
+    "@typescript-eslint/parser": "6.2.0",
+    "@yandex-cloud/function-types": "2.1.1",
+    "eslint": "8.45.0",
+    "eslint-config-prettier": "8.8.0",
+    "prettier": "3.0.0",
+    "rollup": "3.26.3",
+    "rollup-plugin-generate-package-json": "^3.2.0",
+    "typescript": "5.1.6",
+    "unplugin-zip-pack": "1.0.0",
+    "vite-plugin-clean": "1.0.0",
+    "vite-plugin-cp": "4.0.1",
+    "vite-plugin-zip-pack": "1.0.6"
+  }
+}
